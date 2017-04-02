@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">IMDb Movie App</string>
+    <string name="enter_text">Enter movie</string>
+    <string name="search_imdb">Search IMDb.com</string>
+    <string name="hello_world">Hello World</string>
+    <string name="loading_movie_list">Loading Movie List</string>
+    <string name="check_connection">Please check your internet connection!</string>
+    <string name="loading_movie">Loading Movie</string>
+    <string name="released_label">Released Date:</string>
+    <string name="genre_label">Genre:</string>
+    <string name="director_label">Director:</string>
+    <string name="actors_label">Actors:</string>
+    <string name="plot_label"><b>Plot:</b></string>
+    <string name="finish">Finish</string>
+    <item type="id" name="search_tag"/>
+    <item type="id" name="search_button"/>
+    <item type="id" name="sm_lin"/>
+    <item type="id" name="tv"/>
+    <item type="id" name="tv1"/>
+    <item type="id" name="sm_sc"/>
+    <item type="id" name="md_lin"/>
+    <item type="id" name="md_lin_im"/>
+    <item type="id" name="progress"/>
+    <item type="id" name="webview"/>
+</resources>

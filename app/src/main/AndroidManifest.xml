@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.srisaikumar.imdbmovieapp">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SearchMovie"
+            android:parentActivityName=".MainActivity"
+            >
+            <intent-filter>
+                <action android:name="com.example.srisaikumar.imdbmovieapp.StartMovie"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MovieDetails"
+            android:parentActivityName=".MainActivity"
+            >
+            <intent-filter>
+                <action android:name="com.example.srisaikumar.imdbmovieapp.MovieDetails"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MovieWebView"
+            android:parentActivityName=".MovieDetails"
+            >
+            <intent-filter>
+                <action android:name="com.example.srisaikumar.imdbmovieapp.MovieWebView"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
